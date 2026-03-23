@@ -1,0 +1,29 @@
+[project]
+name = "voice_fake"
+version = "0.1.0"
+description = "A challenge to deepfake someone's voice saying a specific passphrase"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.135.1",
+    "faster-whisper>=1.2.1",
+    "numpy>=2.4.2",
+    "python-multipart>=0.0.22",
+    "resemblyzer>=0.1.4",
+    "setuptools<82.0",
+    "uvicorn>=0.41.0",
+]
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "polars>=1.38.1",
+    "scikit-learn>=1.8.0",
+    "setuptools<82.0",
+    "tqdm>=4.67.3",
+]
+
+[tool.uv.workspace]
+members = [
+    "solution",
+]

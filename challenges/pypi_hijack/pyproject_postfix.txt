@@ -1,0 +1,5 @@
+[[tool.uv.index]]
+name = "internal-mirror"
+url = "http://localhost:8080/simple"
+default = true
+

@@ -1,0 +1,4 @@
+{"entity_id": "ent-1042", "operation": "update", "field": "name", "new_value": "James Davies"}
+{"entity_id": "ent-95321", "operation": "delete"}
+{"entity_id": "ent-330429", "operation": "create", "name": "Roger Smith", "dob": "1990-12-23", "ssn": "012-345-678", "location": "theatrical.veggies.reinvented"}
+{"entity_id": "ent-5", "operation": "update", "field": "location", "new_value": "blasted.collapsed.diamonds"}

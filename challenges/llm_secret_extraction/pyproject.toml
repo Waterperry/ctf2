@@ -1,0 +1,10 @@
+[project]
+name = "llm-secret-extraction"
+version = "0.1.0"
+description = "CTF challenge: extract a flag from an LLM's system prompt"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.0",
+    "requests>=2.32.0",
+    "uvicorn>=0.30.0",
+]
